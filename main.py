@@ -14,6 +14,9 @@ from sklearn.metrics import accuracy_score
 
 st.title('Streamlit Example')
 
+server.enableWebsocketCompression=false
+server.enableXsrfProtection=false
+        
 st.write("""
 # Explore different classifier and datasets
 Which one is the best?
